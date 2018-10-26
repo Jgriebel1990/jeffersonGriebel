@@ -1,0 +1,21 @@
+header{
+    align-items: center;
+    display: flex;
+    margin: 0 0 0 auto;
+}
+
+.contact{
+    align-items: center;
+    display: flex;
+    margin: 0 0 0 auto;
+}
+
+.contact-a{
+    text-decoration: none;
+}
+
+
+
+@media (min-width: 600px) {
+
+}
