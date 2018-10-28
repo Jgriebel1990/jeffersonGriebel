@@ -21,6 +21,19 @@ header{
     width: 55px;
 }
 
+.parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('images/plaxbg2.png');
+    height: 650px;
+}
+
+.text{
+    text-align: center;
+}
+
 @media (min-width: 600px) {
 
 }
