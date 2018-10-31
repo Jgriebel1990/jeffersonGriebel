@@ -19,6 +19,12 @@ header{
     text-decoration: none;
 }
 
+footer{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
 .icons{
     height: 55px;
     padding: 10px;
