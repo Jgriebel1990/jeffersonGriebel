@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+>>>>>>> f1cdf8462d9cabb0e7553b844a55861891497803
 header{
     align-items: center;
     display: flex;
@@ -7,6 +14,10 @@ header{
 .contact{
     align-items: center;
     display: flex;
+<<<<<<< HEAD
+=======
+    flex-direction: row;
+>>>>>>> f1cdf8462d9cabb0e7553b844a55861891497803
     margin: 0 0 0 auto;
 }
 
@@ -14,7 +25,52 @@ header{
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 
+=======
+footer{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons{
+    height: 55px;
+    padding: 10px;
+    width: 55px;
+}
+.parallax-a{
+    background-attachment: fixed;
+    background-image: url('images/');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.parallax-b{
+    background-attachment: fixed;
+    background-image: url('images/plaxbg2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.parallax-c{
+    background-attachment: fixed;
+    background-image: url('images/mj2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.text{
+    padding: 150px;
+    text-align: center;
+}
+>>>>>>> f1cdf8462d9cabb0e7553b844a55861891497803
 
 @media (min-width: 600px) {
 
