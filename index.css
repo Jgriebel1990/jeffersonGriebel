@@ -1,8 +1,10 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-header{
+.header{
     align-items: center;
     display: flex;
     margin: 0 0 0 auto;
@@ -20,11 +22,11 @@ header{
 }
 
 
-footer{
+/* footer{
     align-items: center;
     display: flex;
     justify-content: space-around;
-}
+} */
 
 .icons{
     height: 55px;
