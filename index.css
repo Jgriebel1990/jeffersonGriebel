@@ -1,7 +1,8 @@
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: 	#FFFEF6;
 }
 
 .header{
@@ -15,6 +16,7 @@ body{
     display: flex;
     flex-direction: row;
     margin: 0 0 0 auto;
+   
 }
 
 .contact-a{
@@ -35,10 +37,11 @@ body{
 }
 .parallax-a{
     background-attachment: fixed;
-    background-image: url('images/');
+    background-image: url('images/IMG_1463.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0 0px 20px -5px #616161;
     height: 650px;
 }
 
@@ -48,12 +51,23 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0 0px 20px -5px #616161;
     height: 650px;
 }
 
 .parallax-c{
     background-attachment: fixed;
-    background-image: url('images/mj2.jpg');
+    background-image: url('images/starsky.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0px 20px -5px #616161;
+    height: 650px;
+}
+
+.parallax-d{
+    background-attachment: fixed;
+    background-image: url('images/IMG_1463.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,8 +75,51 @@ body{
 }
 
 .text{
+    font-size: 2rem;
     padding: 150px;
     text-align: center;
+    line-height: 1.6;
+    color: #1a1a1a;
+}
+
+.parallax-text{
+    text-shadow: 1px 1px 2px rgb(61, 61, 61), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+    text-align: center;
+    font-size: 3rem;
+    color: #FFFEF6;
+}
+
+#name{
+    font-size: 60px;
+    margin-left: 2rem;
+    color: #1a1a1a;
+    text-shadow: 1px 1px 2px rgb(134, 134, 134), 0 0 1em rgb(150, 150, 150), 0 0 0.2em rgb(150, 150, 150);
+}
+
+.button{
+    background-color: 	#96cdcd;
+    border: none;
+    border-radius: 10%;
+    color: #1a1a1a;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    height: 55px;
+    padding: 8px;
+    width: 55px;
+    text-align: center;
+    margin-bottom: .5rem;
+    margin-left: .5rem;
+}
+
+.profile-img {
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
 }
 
 @media (min-width: 600px) {

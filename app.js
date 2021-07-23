@@ -1,7 +1,9 @@
-const enlargeName = document.getElementById('name');
+const backToTopBtn = document.querySelector('#backToTopBtn');
+const rootElement = document.documentElement;
 
-enlargeName.addEventListener('click', {
-    handleEvent: event => {
-        alert('POOOOOOOOOOOOP');
-    }
+backToTopBtn.addEventListener('click', function(e){
+    rootElement.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
 })
