@@ -1,28 +1,26 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: 	#FFFEF6;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffef6;
 }
 
-.header{
-    align-items: center;
-    display: flex;
-    margin: 0 0 0 auto;
+.header {
+  align-items: center;
+  display: flex;
+  margin: 0 0 0 auto;
 }
 
-.contact{
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    margin: 0 0 0 auto;
-   
+.contact {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 0 auto;
 }
 
-.contact-a{
-    text-decoration: none;
+.contact-a {
+  text-decoration: none;
 }
-
 
 /* footer{
     align-items: center;
@@ -30,98 +28,100 @@ body{
     justify-content: space-around;
 } */
 
-.icons{
-    height: 55px;
-    padding: 10px;
-    width: 55px;
+.icons {
+  height: 55px;
+  padding: 10px;
+  width: 55px;
 }
-.parallax-a{
-    background-attachment: fixed;
-    background-image: url('images/IMG_1463.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0 0px 20px -5px #616161;
-    height: 650px;
-}
-
-.parallax-b{
-    background-attachment: fixed;
-    background-image: url('images/plaxbg2.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0 0px 20px -5px #616161;
-    height: 650px;
+.parallax-a {
+  background-attachment: fixed;
+  background-image: url("images/IMG_1463.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0px 20px -5px #616161;
+  height: 650px;
 }
 
-.parallax-c{
-    background-attachment: fixed;
-    background-image: url('images/starsky.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0 0px 20px -5px #616161;
-    height: 650px;
+.parallax-b {
+  background-attachment: fixed;
+  background-image: url("images/plaxbg2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0px 20px -5px #616161;
+  height: 650px;
 }
 
-.parallax-d{
-    background-attachment: fixed;
-    background-image: url('images/IMG_1463.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 650px;
+.parallax-c {
+  background-attachment: fixed;
+  background-image: url("images/starsky.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0px 20px -5px #616161;
+  height: 650px;
 }
 
-.text{
-    font-size: 2rem;
-    padding: 150px;
-    text-align: center;
-    line-height: 1.6;
-    color: #1a1a1a;
+.parallax-d {
+  background-attachment: fixed;
+  background-image: url("images/IMG_1463.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
 }
 
-.parallax-text{
-    text-shadow: 1px 1px 2px rgb(61, 61, 61), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 150px;
-    text-align: center;
-    font-size: 3rem;
-    color: #FFFEF6;
+.text {
+  font-size: 2rem;
+  padding: 150px;
+  text-align: center;
+  line-height: 1.6;
+  color: #1a1a1a;
 }
 
-#name{
-    font-size: 60px;
-    margin-left: 2rem;
-    color: #1a1a1a;
-    text-shadow: 1px 1px 2px rgb(134, 134, 134), 0 0 1em rgb(150, 150, 150), 0 0 0.2em rgb(150, 150, 150);
+.parallax-text {
+  text-shadow: 1px 1px 2px rgb(61, 61, 61), 0 0 1em rgb(0, 0, 0),
+    0 0 0.2em rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 150px;
+  text-align: center;
+  font-size: 3rem;
+  color: #fffef6;
 }
 
-.button{
-    background-color: 	#96cdcd;
-    border: none;
-    border-radius: 10%;
-    color: #1a1a1a;
-    cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    height: 55px;
-    padding: 8px;
-    width: 55px;
-    text-align: center;
-    margin-bottom: .5rem;
-    margin-left: .5rem;
+#name {
+  font-size: 60px;
+  margin-left: 2rem;
+  color: #1a1a1a;
+  text-shadow: 1px 1px 2px rgb(134, 134, 134), 0 0 1em rgb(150, 150, 150),
+    0 0 0.2em rgb(150, 150, 150);
+}
+
+.button {
+  background-color: #96cdcd;
+  border: none;
+  border-radius: 10%;
+  color: #1a1a1a;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  height: 55px;
+  padding: 8px;
+  width: 55px;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .profile-img {
-    border-radius: 50%;
-    height: 350px;
-    width: 350px;
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
 }
 
 @media (min-width: 600px) {
-
 }
